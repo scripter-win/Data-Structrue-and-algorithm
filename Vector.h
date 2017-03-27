@@ -63,7 +63,7 @@ template<typename T> void Vector<T>::insertsort(int lo ,int hi)
 	{
 		int x = elem[i];
 		int index = i - 1;
-		while (elem[index] > x && index > lo)
+		while (elem[index] > x && index >= lo)
 		{
 			elem[index+1] = elem[index];
 			index--;
