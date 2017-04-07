@@ -4,7 +4,7 @@ class Stack:Vector
 {
 protected:
 
-
+public:
 
 
 }
